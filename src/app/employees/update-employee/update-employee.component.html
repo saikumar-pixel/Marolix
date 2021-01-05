@@ -1,0 +1,28 @@
+
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="" class="card-img" alt="">
+      </div>
+      <div class="col-md-8">
+          <form [formGroup]="updateform" (ngSubmit)="updateEmployee()">
+        <div class="card-body">
+            <label for="id">Employee Id</label>
+            <input type="text" id="id" formControlName="id" class="form-control">
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" formControlName="firstname" class="form-control">
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" formControlName="lastname" class="form-control">
+            <label for="Email">Email Address: </label>
+            <input type="email" id="Email" formControlName="email" class="form-control">
+            
+           
+            <button type="submit" class="btn btn-primary" >Update</button>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
