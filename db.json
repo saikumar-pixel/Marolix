@@ -1,0 +1,77 @@
+{
+  "employees":[
+    {
+      "id":1,
+      "firstname":"virat",
+      "lastname":"kohli",
+      "email":"virat@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img1.webp"
+    },
+    {
+      "id":2,
+      "firstname":"yuvraj",
+      "lastname":"singh",
+      "email":"yuvraj@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img2.jpg"
+    },
+    {
+      "id":3,
+      "firstname":"smriti",
+      "lastname":"mandana",
+      "email":"smriti@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img3.jpg"
+    },
+    {
+      "id":4,
+      "firstname":"sachin",
+      "lastname":"tendulkar",
+      "email":"sachi@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img4.jpg"
+    },
+    {
+      "id":5,
+      "firstname":"rishabh",
+      "lastname":"pant",
+      "email":"rishabh@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img5.jpg"
+    },
+    {
+      "id":6,
+      "firstname":"shikhar",
+      "lastname":"dhawan",
+      "email":"shikhar@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img6.jpg"
+    },
+    {
+      "id":7,
+      "firstname":"md",
+      "lastname":"shami",
+      "email":"shami@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img7.jpg"
+    },
+    {
+      "id":8,
+      "firstname":"prithvi",
+      "lastname":"shaw",
+      "email":"prithvi@gmail.com",
+      "photoPath":"http://localhost:4200/assets/images/img8.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
